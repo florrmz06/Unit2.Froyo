@@ -1,8 +1,8 @@
-const input = prompt("Please insert desired flavors, separated by commas. Available flavors: Strawberry, Coffee, Cheesecake, Vanilla")
+const input = prompt("Please insert desired flavors, separated by commas. Available flavors: Strawberry, Coffee, Vanilla")
 
 if (input) {
 
-    const arrayOfFlavors = input.split(" ");
+    const arrayOfFlavors = input.split(",");
 
     console.table(arrayOfFlavors);
 
